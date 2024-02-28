@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: rgb(0, 255, 14);
+  background: linear-gradient(90deg, rgba(0, 255, 14, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 70%, rgba(0, 255, 14, 1) 100%);
+}
+
+* {
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.realContainer {
+  background-color: gray;
+  margin-top: 20vh;
+  height: fit-content;
+  padding: 13px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
